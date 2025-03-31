@@ -157,6 +157,9 @@ footer {
         width: 80px;
         height: 80px;
     }
+    .language a {
+        font-size: 2rem;
+    }
 
     /* Footer */
     .footer {

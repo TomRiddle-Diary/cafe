@@ -121,7 +121,7 @@
 .menu-item {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 95%;
     font-size: 1.8rem;
 }
 .menu-image-container {

@@ -1,0 +1,114 @@
+/* Banner */
+.banner {
+    background-color: #6F4E37;
+    padding: 30px 0;
+    text-align: center;
+}
+.page-header {
+    font-size: 3rem;
+    color: #F5DC9F;
+    font-weight: 300;
+}
+
+/* Content */
+.about-page-1, .about-page-2, .about-page-3 {
+    padding: 80px 0;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+.about-page-1, .about-page-3 {
+    background-color: #FFF5E1;
+}
+.about-page-2 {
+    background-color: #F5E1C0;
+}
+.about-contents {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 450px;
+    width: 100%;
+}
+.about-contents img {
+    max-width: 450px;
+    width: 100%;
+}
+.about-header {
+    font-size: 2.8rem;
+}
+.about-text {
+    font-size: 1.8rem;
+}
+
+/* Menu */
+.divider {
+    border-bottom: 1px solid #6F4E37;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: -30px;
+}
+body {
+    background-color: #F5E1C0;
+}
+.cake {
+    margin-right: 15px;
+}
+.menu-nav {
+    padding: 30px;
+}
+.menu-nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 3rem;
+}
+.menu-nav-links a {
+    color: #6F4E37;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Make it Responsive */
+@media (max-width: 768px) {
+    /* About Page */
+    .about-contents {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about-page-1, .about-page-2, .about-page-3 {
+        padding: 20px 0;
+    }
+    .about-contents img, .about-content {
+        width: 80%;
+    }
+    .about-header {
+        font-size: 2.3rem;
+    }
+    .about-text {
+        font-size: 1.6rem;
+    }
+    .about-contents img {
+        order: 2;
+    }
+    .about-content {
+        order: 1;
+    }
+
+    /* Menu Page */
+    .menu-nav-links {
+        gap: 15px;
+        font-size: 2.4rem;
+    }
+    .menu-nav {
+        margin-bottom: -40px;
+    }
+}
